@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+h1 {
+  margin: 50px auto;
+  background: linear-gradient(to right, red, green, blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+#startDiv {
+  font-weight: 700;
+}
+
+.invisible {
+  display: none;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.scoreAddButton {
+  margin: 20px;
+}
+
+.selectorBox {
+  margin: 30px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#newGame {
+  margin-top: 60px;
+}
